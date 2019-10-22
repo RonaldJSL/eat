@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Noticias"
+        android:id="@+id/m_noticias"
+        android:icon="@drawable/ic_noticias"/>
+
+    <item android:title="Seguimiento"
+        android:id="@+id/m_seguimiento"
+        android:icon="@drawable/ic_seguimiento"/>
+
+    <item android:title="Más"
+        android:id="@+id/m_mas"
+        android:icon="@drawable/ic_mas"/>
+
+    <item android:title="Actividades"
+        android:id="@+id/m_actividad"
+        android:icon="@drawable/ic_actividades"/>
+
+    <item android:title="Perfil"
+        android:id="@+id/m_perfil"
+        android:icon="@drawable/ic_perfil"/>
+</menu>

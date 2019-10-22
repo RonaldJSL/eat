@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IngresarPreferencias">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese sus preferencias"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Para mejorar su experiencia elija"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="los alimentos que desea consumir"
+        android:textAlignment="center"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+    <ExpandableListView
+        android:id="@+id/expandable_listview"
+        android:layout_width="match_parent"
+        android:layout_height="520dp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/btnSig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:background="@drawable/round"
+        android:textColor="#FFF"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Continuar" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+
+    <Button
+        android:id="@+id/btnRegresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:background="@drawable/round"
+        android:textColor="#FFF"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Regresar" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+
+    <Button
+        android:id="@+id/btnFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:background="@drawable/round"
+        android:textColor="#FFF"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Terminar" />
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">+eat</string>
+
+    <string-array name="listaPreferencias">
+        <item>Papas</item>
+        <item>Zapallo</item>
+        <item>Aji</item>
+        <item>Papas</item>
+    </string-array>
+
+    <string name="btnAlimentacionS">Alimentación Saludable</string>
+    <string name="btnBajarPeso">Bajar de Peso</string>
+    <string name="btnSubirPeso">Subir de Peso</string>
+    <string name="txtvedadAS">Edad</string>
+    <string name="txtvhintedadAS">Años</string>
+    <string name="txtvtallaAS">Talla</string>
+    <string name="txtvhintallaAS">(en cm)</string>
+    <string name="btnComenzar">Comenzémos!</string>
+    <string name="txtvpesoAS">Peso</string>
+    <string name="txthintvpesoAS">(en kg)</string>
+    <string name="txtActividades">Actividades fisicas a realizar</string>
+    <string name="btnCaminata">Caminata</string>
+    <string name="btnMaraton">Maratón</string>
+    <string name="btnTrote">Trote</string>
+    <string name="btnAlpinismo">Alpinismo</string>
+    <string name="txttitulo">Conti - Health</string>
+    <string name="btnSeleccionActiv">Sigámos >></string>
+    <string name="mLinea1">Empezemos juntos este desafio</string>
+    <string name="mLinea2">¿Que deseas hacer?</string>
+    <string name="mtitulo2">Sobre ti:</string>
+    <string name="mLinea3">Para lograr la mejor experiencia</string>
+    <string name="mLinea4">rellena los campos a continuacion</string>
+    <string name="mtitulo3">Ya casi terminamos !</string>
+    <string name="mLinea5">Segun tu edad esta es la</string>
+    <string name="mLinea6">cantidad promedio de consumo de kcal</string>
+    <string name="mLinea7">Seleccione los alimentos de su preferencia</string>
+    <string name="mLinea8">Categoría</string>
+    <string name="mLinea9">Carnes</string>
+    <string name="mLinea10">Lacteos</string>
+    <string name="mLinea11">Verduras</string>
+    <string name="mLinea12">Cereales</string>
+    <string name="mLinea13">Bebidas</string>
+
+    <string name="grupo1">"         "Lacteos</string>
+    <string name="grupo2">"         "Verduras</string>
+    <string name="grupo3">"         "Cereales</string>
+    <string name="grupo4">"         "Bebidas</string>
+
+    <string-array name="grupo1">
+        <item>Leche</item>
+        <item>Mantequilla</item>
+        <item>Yogurt</item>
+        <item>Queso</item>
+    </string-array>
+
+    <string-array name="grupo2">
+        <item>Zanahoria</item>
+        <item>Cebolla</item>
+        <item>Esparrago</item>
+        <item>Espinaca</item>
+        <item>Coliflor</item>
+        <item>Alcachofa</item>
+    </string-array>
+
+    <string-array name="grupo3">
+        <item>Arroz</item>
+        <item>Trigo</item>
+        <item>Maiz</item>
+        <item>Avena</item>
+    </string-array>
+
+    <string-array name="grupo4">
+        <item>Mate</item>
+        <item>Infusiones</item>
+        <item>Vino</item>
+        <item>Concentrados</item>
+    </string-array>
+
+</resources>
